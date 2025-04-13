@@ -1,10 +1,15 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import './Home.css';
+
 import Album1 from '../assets/Album1.jpg';
 import Album2 from '../assets/Album2.jpg';
 import Album3 from '../assets/Album3.jpg';
 import Album4 from '../assets/Album4.jpg';
+
+import PlanoFree from '../assets/plano-free.png'
+import PlanoPadrao from '../assets/plano-padrao.png'
+import PlanoPremium from '../assets/plano-premium.png'
 
 const albums = [Album1, Album2, Album3, Album4];
 
@@ -41,8 +46,31 @@ const Home = () => {
         </button>
       </div>
 
-      <div className="home-disk-bg w-full h-100 m-5" />
-    </div>
+      <div className="home-disk-bg w-full h-300 lg:h-100 m-5 flex flex-col items-center">
+        <div className='plan-text flex justify-center m-10'>
+            Junte-se a festa e faça parte de umas das maiores plataformas de streaming do MUNDO!
+        </div>
+        <div className='plan-type lg:flex'>
+            <div className='flex flex-col items-center'>
+                <img src={PlanoFree} alt="" />
+                <div className='plan-text'>Plano Free</div>
+                <button className="album-escutar mt-3">Adquira Agora</button>
+            </div>
+            <div className='flex flex-col items-center'>
+                <img src={PlanoPadrao} alt="" />
+                <div className='plan-text'>Plano Padrão</div>
+                <button className="album-escutar mt-3">Adquira Agora</button>
+            </div>
+            <div className='flex flex-col items-center'>
+                <img src={PlanoPremium} alt="" />
+                <div className='plan-text'>Plano Premium</div>
+                <button className="album-escutar mt-3">Adquira Agora</button>
+            </div>
+
+        </div>
+      </div>
+    
+     </div>
   );
 };
 

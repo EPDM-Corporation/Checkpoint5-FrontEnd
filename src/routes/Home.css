@@ -20,9 +20,7 @@
     border-radius: 30px;
 }
 
-.home-disk-bg{
-    background-color: #1F1F1F;
-}
+
 
 .album-button{
     background-color: white;
@@ -58,6 +56,18 @@
     text-align: center;
     font-weight: bold;
 }
+
+
+.home-disk-bg{
+    background-color: #1F1F1F;
+}
+
+.plan-text{
+    font-family: "Konkhmer Sleokchher", system-ui;
+    font-weight: bold;
+    font-style: normal;
+}
+
 
 @media screen and (max-width: 400px) {
     .album-button{
