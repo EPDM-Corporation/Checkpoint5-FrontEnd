@@ -2,9 +2,11 @@ import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import './Home.css';
 import Album1 from '../assets/Album1.jpg';
-import Album2 from '../assets/Album2.jpg'
+import Album2 from '../assets/Album2.jpg';
+import Album3 from '../assets/Album3.jpg';
+import Album4 from '../assets/Album4.jpg';
 
-const albums = [Album1, Album2, Album1, Album1]; // você pode trocar esses depois
+const albums = [Album1, Album2, Album3, Album4];
 
 const Home = () => {
   const [currentIndex, setCurrentIndex] = useState(0);
