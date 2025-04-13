@@ -7,13 +7,13 @@
     flex-direction: column;
   }
   
-  .sobre-header {
+  /* .sobre-header {
     background-color: #b38bfc;
     padding: 10px 20px;
     display: flex;
     justify-content: flex-end;
     align-items: center;
-  }
+  } */
   
   .menu-icon {
     font-size: 24px;
@@ -67,10 +67,10 @@
     color: #39d353;
   }
   
-  .sobre-footer {
+  /* .sobre-footer {
     height: 80px;
     background: linear-gradient(to top, #b600ff 0%, transparent 100%);
     border-top-left-radius: 40% 30%;
     border-top-right-radius: 40% 30%;
   }
-  
+   */

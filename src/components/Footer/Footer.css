@@ -1,1 +1,11 @@
 @import 'tailwindcss';
+
+.footer-bg1{
+    background-color: #0e0e0e;
+}
+.footer-bg2{
+    height: 80px;
+    background: linear-gradient(to top, #b600ff 0%, transparent 100%);
+    border-top-left-radius: 40% 30%;
+    border-top-right-radius: 40% 30%;
+  }

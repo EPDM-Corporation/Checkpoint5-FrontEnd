@@ -7,16 +7,21 @@ import Linkedin from '../../assets/Linkedin.png'
 
 const Footer = () => {
   return (
-    <footer className='bg-gray-900 max-w h-49 flex flex-col items-center'>
+    <>
+    <div className='footer-bg1'>
+        <div className="footer-bg2"></div>
+    </div>
+    
+    <footer className='bg-gray-900 max-w h-100 md:h-49 flex flex-col items-center'>
         <div className='
-        flex
-        justify-center
-        items-center'>
-            <div className='flex m-5'>
-                <img src={Facebook} className='h-15 m-5' alt="" />
-                <img src={Instagram}className='h-15 m-5'alt="" />
-                <img src={Youtube} className='h-15 m-5' alt="" />
-                <img src={Linkedin} className='h-15 m-5' alt="" />
+        md:flex
+        md:justify-center
+        md:items-center'>
+            <div className='flex md:m-5'>
+                <img src={Facebook} className='h-15 m-0 md:m-5' alt="" />
+                <img src={Instagram}className='h-15 m-0 md:m-5'alt="" />
+                <img src={Youtube} className='h-15 m-0 md:m-5' alt="" />
+                <img src={Linkedin} className='h-15 m-0 md:m-5' alt="" />
             </div>
             <div className='m-5'>
                 <div className='text-white'>Contatos</div>
@@ -26,6 +31,7 @@ const Footer = () => {
         </div>
         <div className='text-white'>© Projeto Melodia - Todos os direitos reservados</div>
     </footer>
+    </>
   )
 }
 

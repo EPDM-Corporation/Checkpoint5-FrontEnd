@@ -1,16 +1,17 @@
 import React from 'react';
-import { Link } from 'react-router-dom'; // Importa o Link
+import { Link } from 'react-router-dom';
 import './Home.css';
 
 const Home = () => {
   return (
     <div className="home-container">
-      <h1>Hello World</h1>
-
-      {/* Botão que leva para a página Sobre */}
-      <Link to="/sobre">
-        <button className="home-button">Ir para Sobre</button>
-      </Link>
+        <div className='background-1'>
+            <div> Mais de 100 milhões de músicas,
+                 álbuns e podcasts esperando por você.
+                  Do hit do momento ao som que só você 
+                  conhece tudo num só play.</div>
+            
+        </div>
     </div>
   );
 };
