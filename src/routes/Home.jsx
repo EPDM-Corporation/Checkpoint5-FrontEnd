@@ -25,7 +25,7 @@ const Home = () => {
       </div>
 
       <div className="flex items-center justify-center">
-        <button className="album-button w-32 h-32 lg:w-32 lg:h-32" onClick={handlePrev}>
+        <button className="album-button" onClick={handlePrev}>
           <div className="left-arrow"></div>
         </button>
 
