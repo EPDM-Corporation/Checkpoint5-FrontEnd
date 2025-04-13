@@ -1,12 +1,18 @@
-import React from 'react'
-import './Home.css'
+import React from 'react';
+import { Link } from 'react-router-dom'; // Importa o Link
+import './Home.css';
 
 const Home = () => {
   return (
-    <div>
+    <div className="home-container">
       <h1>Hello World</h1>
-    </div>
-  )
-}
 
-export default Home
+      {/* Botão que leva para a página Sobre */}
+      <Link to="/sobre">
+        <button className="home-button">Ir para Sobre</button>
+      </Link>
+    </div>
+  );
+};
+
+export default Home;
