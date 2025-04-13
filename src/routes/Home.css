@@ -16,7 +16,6 @@
 .album-bg{
     background-color: #42BD46;
     height: 297px;
-    width: 588px;
     margin: 20px;
     border-radius: 30px;
 }
@@ -27,8 +26,8 @@
 
 .album-button{
     background-color: white;
-    height: 52px;
-    width: 52px;
+    width: 32px;
+    height: 32px;
     border-radius:100%;
     display: flex;
     align-items: center;
@@ -37,15 +36,25 @@
 .left-arrow{
     width: 0;
 	height: 0;
-	border-top: 12px solid transparent;
-	border-right: 25px solid #555;
-	border-bottom: 12px solid transparent;
+	border-top: 8px solid transparent;
+	border-right: 20px solid #555;
+	border-bottom: 8px solid transparent;
 }
 
 .right-arrow{
     width: 0;
 	height: 0;
-	border-top: 12px solid transparent;
-	border-left: 25px solid #555;
-	border-bottom: 12px solid transparent;
+	border-top: 8px solid transparent;
+	border-left: 20px solid #555;
+	border-bottom: 8px solid transparent;
+}
+
+.album-escutar{
+    width: 150px;
+    height: 30px;
+    background-color: #00FF00;
+    border-radius: 30px;
+    color: black;
+    text-align: center;
+    font-weight: bold;
 }
