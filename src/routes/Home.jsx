@@ -52,17 +52,17 @@ const Home = () => {
         </div>
         <div className='plan-type lg:flex'>
             <div className='flex flex-col items-center'>
-                <img src={PlanoFree} alt="" />
+                <img src={PlanoFree} alt="" className='w-75'/>
                 <div className='plan-text'>Plano Free</div>
                 <button className="album-escutar mt-3">Adquira Agora</button>
             </div>
             <div className='flex flex-col items-center'>
-                <img src={PlanoPadrao} alt="" />
+                <img src={PlanoPadrao} alt="" className='w-75'/>
                 <div className='plan-text'>Plano Padrão</div>
                 <button className="album-escutar mt-3">Adquira Agora</button>
             </div>
             <div className='flex flex-col items-center'>
-                <img src={PlanoPremium} alt="" />
+                <img src={PlanoPremium} alt="" className='w-75'/>
                 <div className='plan-text'>Plano Premium</div>
                 <button className="album-escutar mt-3">Adquira Agora</button>
             </div>
