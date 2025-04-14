@@ -1,9 +1,9 @@
 import React from 'react'
 
-import clovis from '../assets/kidbengala.png'
-import neymar from '../assets/neymarjr.png'
 import daciolo from '../assets/daciolo.png'
 import igao from '../assets/igao.png'
+import clovis from '../assets/kidbengala.png'
+import neymar from '../assets/neymarjr.png'
 
 const Depoimento = () => {
   const Depoimentos = [
@@ -14,7 +14,7 @@ const Depoimento = () => {
   ];
 
   return (
-    <div className="min-h-screen bg-black text-white py-24 px-8 text-center">
+    <div className="min-h-screen bg-black text-white py-24 px-8 text-center p-100">
       <h1 className="text-green-500 text-5xl font-extrabold mb-20">Depoimentos dos nossos clientes!</h1>
       <div className="grid grid-cols-1 md:grid-cols-2 gap-16 max-w-6xl mx-auto">
         {Depoimentos.map((t, i) => (

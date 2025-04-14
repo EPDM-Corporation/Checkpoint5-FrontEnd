@@ -5,6 +5,7 @@
     min-height: 100vh;
     display: flex;
     flex-direction: column;
+    padding-top: 50px;
 }
 .green-text{
     color:#36AC4F;
