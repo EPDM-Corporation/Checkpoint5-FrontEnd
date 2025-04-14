@@ -13,3 +13,6 @@ Este projeto teve como o objetivo o desenvolvimento web baseado em sites de stre
 - Lucas Guerreiro
 
 ## Video de demonstração
+
+## Link do site
+https://epdm-corporation.github.io/Checkpoint5-FrontEnd/
