@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
-import { Link } from 'react-router-dom';
 import './Home.css';
+
+import Banner from '../assets/banner.png'
 
 import Album1 from '../assets/Album1.jpg';
 import Album2 from '../assets/Album2.jpg';
@@ -37,8 +38,9 @@ const Home = () => {
             </div>
       </section>
 
-      <section>
-    <div>
+      <section className='flex items-center flex-col lg:flex-row'>
+        <img src={Banner} alt="" className='w-150 m-20'/>
+      <div>
       <div className="flex items-center justify-center">
         <button className="album-button" onClick={handlePrev}>
           <div className="left-arrow"></div>
