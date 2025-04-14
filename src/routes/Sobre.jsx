@@ -13,7 +13,7 @@ export default function Sobre() {
           Seja na resenha com os amigos, no after ou na balada em casa, a gente entrega a trilha sonora perfeita
           sem complicação e com muito estilo.
           <br />
-          <strong>Por que a galera tá usando?</strong>
+          <strong className='text-green-600'>Por que a galera tá usando?</strong>
         </p>
 
         <ul className="sobre-list">
@@ -27,7 +27,7 @@ export default function Sobre() {
       </main>
 
       <footer className="sobre-footer"></footer>
-      
+
     </div>
   );
 }
