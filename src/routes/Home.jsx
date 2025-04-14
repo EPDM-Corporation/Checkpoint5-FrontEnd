@@ -38,6 +38,7 @@ const Home = () => {
       </section>
 
       <section>
+    <div>
       <div className="flex items-center justify-center">
         <button className="album-button" onClick={handlePrev}>
           <div className="left-arrow"></div>
@@ -51,6 +52,7 @@ const Home = () => {
         <button className="album-button" onClick={handleNext}>
           <div className="right-arrow"></div>
         </button>
+      </div>
       </div>
       </section>
 
@@ -76,6 +78,7 @@ const Home = () => {
             </div>
 
         </div>
+        
       </section>
     
      </div>
