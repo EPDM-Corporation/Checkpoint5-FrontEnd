@@ -20,14 +20,14 @@ export default function Header() {
     <header className={`header flex flex-col justify-center items-center ${scrolled ? 'scrolled' : ''}`}>
       <div>
         <div className="header-logo flex justify-center">
-          <Link to="/">🔥 Melodia</Link>
+          <Link to="/Checkpoint5-FrontEnd/">🔥 Melodia</Link>
         </div>
 
         <nav className={`header-menu ${scrolled ? 'scrolled' : ''}`}>
-          <Link to="/" className='hidden sm:block'>Home</Link>
-          <Link to="/sobre" className='hidden sm:block'>Sobre</Link>
-          <Link to="/depoimento" className='hidden sm:block'>Depoimentos</Link>
-          <Link to="/contato" className='hidden sm:block'>Contato</Link>
+          <Link to="/Checkpoint5-FrontEnd/" className='hidden sm:block'>Home</Link>
+          <Link to="/Checkpoint5-FrontEnd/sobre" className='hidden sm:block'>Sobre</Link>
+          <Link to="/Checkpoint5-FrontEnd/depoimento" className='hidden sm:block'>Depoimentos</Link>
+          <Link to="/Checkpoint5-FrontEnd/contato" className='hidden sm:block'>Contato</Link>
         </nav>
       </div>
       <button id="menu-btn" className={`sm:hidden text-3xl mobile-button ${scrolled ? 'scrolled' : ''}`} onClick={() => setIsOpen(!isOpen)} >
