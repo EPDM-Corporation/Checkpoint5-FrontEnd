@@ -12,14 +12,14 @@ function App() {
 
   return (
 
-    <BrowserRouter>
+    <BrowserRouter basename="/Checkpoint5-FrontEnd">
       <Header />
       <Routes>
-        <Route path='/Checkpoint5-FrontEnd/' element={<Home />} />
+        <Route path='/' element={<Home />} />
         <Route path='*' element={<Error />} />
-        <Route path='/Checkpoint5-FrontEnd/sobre' element={<Sobre />} />
-        <Route path='/Checkpoint5-FrontEnd/depoimento' element={<Depoimento />} />
-        <Route path='/Checkpoint5-FrontEnd/contato' element={<Contato />} />
+        <Route path='/sobre' element={<Sobre />} />
+        <Route path='/depoimento' element={<Depoimento />} />
+        <Route path='/contato' element={<Contato />} />
       </Routes>
       <Footer />
     </BrowserRouter>
