@@ -27,6 +27,7 @@ export default function Sobre() {
       </main>
 
       <footer className="sobre-footer"></footer>
+      
     </div>
   );
 }
