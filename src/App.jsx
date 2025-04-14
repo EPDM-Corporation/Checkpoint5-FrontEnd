@@ -3,6 +3,7 @@ import Home from './routes/Home'
 import Sobre from './routes/Sobre'
 import Depoimento from './routes/Depoimento'
 import Error from './routes/Error'
+import Contato from './routes/Contato'
 
 import Header from './components/Header/Header'
 import Footer from './components/Footer/Footer'
@@ -18,6 +19,7 @@ function App() {
         <Route path='*' element={<Error/>}/>
         <Route path='/sobre' element={<Sobre/>}/>
         <Route path='/depoimento' element={<Depoimento/>}/>
+        <Route path='/contato' element={<Contato/>}/>
       </Routes>
       <Footer/>
     </BrowserRouter>

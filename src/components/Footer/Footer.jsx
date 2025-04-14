@@ -28,6 +28,9 @@ const Footer = () => {
                 <div className='text-white'>Email: melodia@gmail.com</div>
                 <div className='text-white'>Telefone: (11) 98765-4321</div>
             </div>
+            <div className='m-5'>
+                <div className='text-white'>Políticas de Privacidade</div>
+            </div>
         </div>
         <div className='text-white'>© Projeto Melodia - Todos os direitos reservados</div>
     </footer>

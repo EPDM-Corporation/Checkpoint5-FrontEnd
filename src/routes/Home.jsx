@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
-import { Link } from 'react-router-dom';
 import './Home.css';
+
+import Banner from '../assets/banner.png'
 
 import Album1 from '../assets/Album1.jpg';
 import Album2 from '../assets/Album2.jpg';
@@ -26,11 +27,20 @@ const Home = () => {
 
   return (
     <div className="home-container flex flex-col items-center">
-      <div className="green-text lg:w-200 m-20 text-3xl text-center">
-        Mais de 100 milhões de músicas, álbuns e podcasts esperando por você.
-        Do hit do momento ao som que só você conhece, tudo num só play.
-      </div>
+        <section>
+            <div className="green-text lg:w-200 m-20 text-3xl text-center">
+            Melodia: Sua Música, Sua Forma
+            </div>
 
+            <div className="green-text lg:w-200 m-20 text-3xl text-center">
+                Mais de 100 milhões de músicas, álbuns e podcasts esperando por você.
+                Do hit do momento ao som que só você conhece, tudo num só play.
+            </div>
+      </section>
+
+      <section className='flex items-center flex-col lg:flex-row'>
+        <img src={Banner} alt="" className='w-150 m-20'/>
+      <div>
       <div className="flex items-center justify-center">
         <button className="album-button" onClick={handlePrev}>
           <div className="left-arrow"></div>
@@ -45,8 +55,10 @@ const Home = () => {
           <div className="right-arrow"></div>
         </button>
       </div>
+      </div>
+      </section>
 
-      <div className="home-disk-bg w-full h-300 lg:h-100 m-5 flex flex-col items-center">
+      <section className="home-disk-bg w-full h-300 lg:h-100 m-5 flex flex-col items-center">
         <div className='plan-text flex justify-center m-10'>
             Junte-se a festa e faça parte de umas das maiores plataformas de streaming do MUNDO!
         </div>
@@ -68,7 +80,8 @@ const Home = () => {
             </div>
 
         </div>
-      </div>
+        
+      </section>
     
      </div>
   );
