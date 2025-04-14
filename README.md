@@ -7,9 +7,9 @@ Este projeto teve como o objetivo o desenvolvimento web baseado em sites de stre
 - Header fixo com efeito de transparência.
 
 ## Integrantes
-Erik Kaiyu Suguiyama
-Belton Lee Carr de Muzio Meira
-Guilherme Vital
-Lucas Guerreiro
+- Erik Kaiyu Suguiyama
+- Belton Lee Carr de Muzio Meira
+- Guilherme Vital
+- Lucas Guerreiro
 
 ## Video de demonstração
