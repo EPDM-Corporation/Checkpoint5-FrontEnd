@@ -1,6 +1,6 @@
 @import 'tailwindcss';
 .header {
-    background-color: #b38bfc;
+    background-color: rgb(179, 139, 252,1);
     position: fixed;
     padding: 15px 20px;
     width: 100%;
@@ -9,7 +9,9 @@
     align-items: center;
     z-index: 1000;
   }
-  
+  .header.scrolled {
+    background-color: rgb(179, 139, 252,0.3);
+  }
   .header-logo a {
     color: #0e0e0e;
     font-size: 1.5rem;
@@ -21,7 +23,12 @@
     display: flex;
     gap: 15px;
   }
-  
+  .header-menu.scrolled {
+    display: flex;
+    gap: 15px;
+    display:none
+  }
+
   .header-menu a {
     color: #0e0e0e;
     text-decoration: none;
@@ -33,4 +40,3 @@
   .header-menu a:hover {
     color: #ffffff;
   }
-  
